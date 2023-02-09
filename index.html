@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación proyecto</title>
+    <link rel="stylesheet" href="/estilos.css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos.css/perfil.css">
+    <link rel="stylesheet" href="/estilos.css/estudios.css">
+    <link rel="stylesheet" href="/estilos.css/trabajo.css">
+    <link rel="stylesheet" href="/estilos.css/habilidades.css">
+    <link rel="stylesheet" href="/estilos.css/contacto.css">
+    <script src="https://kit.fontawesome.com/f27cd97a23.js" crossorigin="anonymous"></script>
+     
+  </head>
+<body>    
+  <header class="topheader">
+    <nav class="topnav">
+      <button class="abrir-menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="menu">
+        <li class="cerrar-menu"><i class="fa-solid fa-xmark"></i></li>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#estudios">Estudios cursados</a></li>
+        <li><a href="#trabajo">Experiencia laboral</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="perfil" id="perfil">
+    <div class="perfil-info">
+      &ensp; <H1 class="perfil-nomb">Margie Pierce</H1><h3 class="perfil-prof">(Profesión)</h3>
+    </div>
+    <div class="perfil-foto">
+      <img class="foto-img"src="/img.png/Margie Pierce.png" alt="Foto de Margie Pierce"/>
+    </div>
+  </section>
+  <div class="perfil-detalles">
+    <p class="perfil-det">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p>
+  </div>
+
+
+  <section class="estudios" id="estudios">
+    <div class="est-body">
+      <h2 class="est-cur">Estudios cursados</h2>
+    </div>
+    <ul class="titulo1">
+      <li class="titulo">20xx</li>
+      <li class="titulo">Título xxxxxxx <br>Universidad xxxxxxxxxxxxx</li>
+    </ul><br>
+    <ul class="titulo2">
+      <li class="titulo">201x</li>
+      <li class="titulo">Título xxxxxx <br>Universidad xxxxxxxxxxxxx</li>
+    </ul> 
+  </section>
+
+  <section class="trabajo" id="trabajo">
+      <h2 class="trab-info">Experiencia laboral</h2>
+    
+    <div class="trab-emp">
+      <div class="trab-año">0000-0000</div>
+      <div class="trab-nomb">NOMBRE DE LA EMPRESA</div>
+        <div class="trab-tarea"><u>Tareas realizadas</u>:</div>
+        <div class="trab-descrip">
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+        </div>
+    </div>
+    <div class="trab-emp">
+      <div class="trab-año">0000-0000</div>
+      <div class="trab-nomb">NOMBRE DE LA EMPRESA</div>
+        <div class="trab-tarea"><u>Tareas realizadas</u>:</div>
+        <div class="trab-descrip">
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+        </div>
+    </div>
+  </section>
+  
+ <section class="habilidades" id="habilidades">
+    <h2 class="hab-prog">Habilidades</h2>
+    <ul class="hab-list">
+      <li class="list-prog">Excel</li>
+      <li class="list-prog">Powerpoint</li> 
+      <li class="list-prog">HTML</li>
+      <li class="list-prog">CSS</li>
+      <li class="list-prog">Javascript</li>
+      <li class="list-prog">Word</li>
+    </ul>
+  </section> 
+
+ <section class="contacto" id="contacto">
+    <h2 class="cont-body">Contacto</h2>
+    <div class="cont-info">
+      <div class="cont-info-det">
+        <p class="cont-etiq">Dirección:</p>
+        <p class="cont-etiq-text"> 1493 Oak Ridge LA</p>
+      </div>
+     
+        <div class="cont-info-det">
+          <p class="cont-etiq">Email:</p>
+          <p class="cont-etiq-text"> margie.pierce@example.com</p>
+        </div>
+     
+          <div class="cont-info-det">
+            <p class="cont-etiq-text"> Enviar mensaje:</p>
+          </div> 
+    </div>
+    <form class="form-cont">
+      <div class="form-cont-info">
+        <label for="name">Nombre</label>
+        <input required type="text" id="name" name="name">
+      </div>
+      <div class="form-cont-info">
+        <label for="email">Email</label>
+        <input required type="email" id="email" name="email">
+      </div>
+      <div class="form-cont-info">
+        <label for="mens">Mensaje</label>
+        <textarea  required name="mens" id="mens" rows="5"></textarea>
+      </div>
+
+      <button type="submit" class="form-cont-submit">Enviar</button>
+    </form>
+    
+    <nav class="red">
+      <ul class="red-social">
+        <li>
+          <a href$="https://www.linkedin.com" class="link-red">
+          <i class="fa-brands fa-linkedin" style="font-size: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href$="https://github.com" class="link-red">
+          <i class="fa-brands fa-github"style="font-size: 25px"></i> 
+          </a>
+        </li>
+        <li>
+            <a href$="https://twitter.com/" class="link-red">        
+            <i class="fa-brands fa-twitter" style="font-size: 25px;"></i>
+          </a>
+        </li>
+        <li>
+            <a href$="https:www.instagram.com/" class="link-red">
+            <iclass=<i class="fa-brands fa-instagram" style="font-size: 25px";></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </section> 
+
+  <script src="js.js/vista.js"></script>
+</body>
+</html>

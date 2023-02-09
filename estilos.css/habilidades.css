@@ -1,0 +1,45 @@
+.habilidades{
+    max-width: 980px;
+    margin: 20px auto 40px;
+    background-color: rgb(163, 144, 182);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.hab-prog{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
+    text-decoration: none;
+}
+
+.list-prog{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 4px 10px rgb(179, 34, 18);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hab-list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width:1024px){
+    .hab-prog{
+        font-size:35px;
+    }
+    
+    .list-prog{
+        font-size: 25px;
+        padding: 13px;
+        margin: 20px;
+    }  
+    
+}
